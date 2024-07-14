@@ -44,3 +44,27 @@ def printingstuff(printee):
     return printee
 
 print(printingstuff("testing"))
+
+# higher order functions examples
+
+# map: needs function and itterable, runs through itterable with function
+mrrp = [1, 2, 3, 4, 5]
+def squaring(x):
+    return x ** 2
+print(list(map(squaring, mrrp)))
+
+# filter, needs function and itterable, returns all that return true
+mrrp2 = ["meow", "mrow", "purr"]
+def meow_check(x):
+    if x == "meow":
+        return True
+    else:
+        return False
+print(list(filter(meow_check, mrrp2)))
+
+# reduce, takes function and itterable, reduces itterable to one value
+import functools as f
+mrrp3 = ["cat", "maid", "nya"]
+def adder(x, y):
+    return x + y
+print(f.reduce(adder, mrrp3))
