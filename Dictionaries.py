@@ -17,3 +17,14 @@ your_info = my_info.copy() # copies dict
 print(my_info.keys()) # returns all keys from dict
 print(my_info.values()) # returns all values from dict
 print(my_info.clear()) # clears dict
+
+# unpacking dicts
+my_dict = {"cat": "meow", "dog": "woof", "cow": "moo"}
+def each(cat, dog, cow):
+    return f"{cat} {dog} {cow}"
+print(each(**my_dict))
+
+# packing dicts
+def pack_dict(**dicts):
+    return dicts
+print(pack_dict(head="hurts", eyes="dry", gender="girl"))

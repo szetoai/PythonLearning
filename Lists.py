@@ -40,3 +40,31 @@ my_list2.reverse() # reverses list
 my_list2.sort # sorts lists (changes OG list)
 print(sorted(my_list2, reverse = True)) # sorts list without changing OG list
 print(my_list2)
+
+# unpacking/separating a list into individual items
+your_list = [1, 5, 7, 10]
+print(*your_list) 
+one, two, *rest = your_list
+print(two)
+
+# packing a list
+def pack(*input_list):
+    for i in input_list:
+        print(i)
+print(pack("hi", "there", "friend"))
+ 
+# spreading
+mrrp = [5, 6, 7, 8]
+purr = [1, 2, 3, 4]
+comb = [*mrrp, *purr]
+print(comb)
+
+# enumerate
+for uh, mrow in enumerate(purr):
+    print(f"{uh} is at index {mrow}")
+
+# zip
+beeg = []
+for num1, num2 in zip(mrrp, purr):
+    beeg.append({"cat":mrrp, "dog":purr})
+print(beeg)
