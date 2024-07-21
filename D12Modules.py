@@ -1,5 +1,5 @@
-import mymodule; from mymodule2 import modulefunc2 as myfunc # manual importing from self-made file; importing specific functions/renaming the,
-mymodule.modulefunc()
+import D12Mymodule; from D12MyModule2 import modulefunc2 as myfunc # manual importing from self-made file; importing specific functions/renaming the,
+D12Mymodule.modulefunc()
 myfunc()
 
 import os # operating system - does actual file directory stuff
