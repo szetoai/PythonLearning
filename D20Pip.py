@@ -29,3 +29,7 @@ print(response.json())  # response as json
 print(response.text) # response as text
 print(response.headers) # response's headers
 """
+
+"""
+CHECK OUT PACKAGES LATER
+"""
