@@ -17,10 +17,10 @@ hi2 = hi.union(hi1) # union returns a new set
 hi.update(hi1) # update updates a existing set - STEALS all items from input
 print(hi.isdisjoint(hi1)) # bool if they have any in common
 
-mrrp = {101, 1101, 1111, 2222}
-mrow = {1101, 101, 1111, 333}
-print(mrrp.intersection(mrow)) # same items in both lists
-print(mrrp.issuperset(mrow)) # bool is superset of input
-print(mrow.issubset(mrrp)) # bool is subset of input
-print(mrrp.difference(mrow)) # returns difference of sets (ONLY FOR what 1st set has that input doesnt)
-print(mrrp.symmetric_difference(mrow)) # returns differences from both sets
+a = {101, 1101, 1111, 2222}
+b = {1101, 101, 1111, 333}
+print(a.intersection(b)) # same items in both lists
+print(a.issuperset(b)) # bool is superset of input
+print(b.issubset(a)) # bool is subset of input
+print(a.difference(b)) # returns difference of sets (ONLY FOR what 1st set has that input doesnt)
+print(a.symmetric_difference(b)) # returns differences from both sets

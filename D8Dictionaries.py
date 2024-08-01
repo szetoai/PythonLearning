@@ -2,7 +2,7 @@ my_info = {
     "name" : "A",
     "age" : 18,
     "status" : "single :(",
-    "skills" : ["meowing", "python", "valorant"]    
+    "skills" : ["idk", "python", "valorant"]    
 }
 
 print(my_info["skills"][2]) # accessing info
@@ -27,4 +27,4 @@ print(each(**my_dict))
 # packing dicts
 def pack_dict(**dicts):
     return dicts
-print(pack_dict(head="hurts", eyes="dry", gender="girl"))
+print(pack_dict(head="hurts", eyes="dry", gender="m"))

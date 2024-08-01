@@ -8,7 +8,7 @@ print(r.search("son", "this is my fffson, he ate someone's son."))
 # findall - finds all instances, returns list
 print(r.findall("son", "this is my son, he ate someone's son."))
 # sub - (target, replacement, string) replaces all instances of target with replacement
-print(r.sub("!", " ", "guha!is!a!little!thing"))
+print(r.sub("!", " ", "z!a!b!c!d"))
 # split - splits string into list of strings based on targeted key
 print(r.split("#", "yams#peanuts#cookies"))
 # lots of different search things with the r"" (see docs)

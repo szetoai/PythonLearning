@@ -1,4 +1,4 @@
-jumper = [10, 20, 30, 40, "mrow"]
+jumper = [10, 20, 30, 40, "j"]
 
 for x in jumper: # prints each item
     print(x)
