@@ -1,3 +1,1 @@
-import sys
-
-print(len(sys.argv))
+print(range(3, 5))
