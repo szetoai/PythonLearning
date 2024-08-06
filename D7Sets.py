@@ -1,14 +1,14 @@
 # note: very similar to lists but bad, can only add/remove items from them, use for more comparison stuff
 
-meow = {"cat", "feline", "lion", "tiger"}
-print(len(meow)) # length
-print("lion" in meow) # checks if item exists
-meow.add("jaguar") # add 1 item
-meow.update(["puma", "panther"]) # add multiple items
-meow.remove("jaguar") # remove item
-meow.pop() # removes a random item
-meow.clear() # clears set
-del meow # deletes meow
+feline = {"cat", "lion", "tiger"}
+print(len(feline)) # length
+print("lion" in feline) # checks if item exists
+feline.add("jaguar") # add 1 item
+feline.update(["puma", "panther"]) # add multiple items
+feline.remove("jaguar") # remove item
+feline.pop() # removes a random item
+feline.clear() # clears set
+del feline # deletes feline
 
 # joining sets
 hi = {1, 2, 3}
