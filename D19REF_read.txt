@@ -1,2 +1,2 @@
-Hello! I'm writing this in notepad because I have no idea what I'm doing!
+Hello! I'm writing this in notepad!
 This is the second line.
